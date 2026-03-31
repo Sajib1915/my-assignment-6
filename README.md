@@ -1,16 +1,51 @@
-# React + Vite
+# 🛠️ DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern digital tools marketplace built with React where users can browse, purchase, and manage premium digital products.
 
-Currently, two official plugins are available:
+🧰 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React.js** — UI components and state management
+- **Vite** — Fast development build tool
+- **Tailwind CSS v4** — Utility-first styling
+- **DaisyUI** — Tailwind CSS component library
+- **React-Toastify** — Toast notifications
+- **JavaScript (ES6+)** — Modern JS features
+- **JSON + Fetch API** — Dynamic product data loading
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **🛒 Cart System** — Add products to cart, remove items, and proceed to checkout with real-time navbar count update.
+2. **🔔 Toast Notifications** — Beautiful notifications for add to cart, remove, and checkout actions using React-Toastify.
+3. **📦 Dynamic Product Loading** — Products are loaded dynamically from a JSON file using the Fetch API.
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+my-assignment-6/
+├── public/
+│   ├── products.json
+│   ├── design-tool.png
+│   ├── operation.png
+│   ├── portfolio.png
+│   ├── shopping-cart.png
+│   ├── social-media.png
+│   └── writing_2327400 1.png
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Banner.jsx
+│   │   ├── Stats.jsx
+│   │   ├── Products.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Steps.jsx
+│   │   ├── Pricing.jsx
+│   │   ├── CallToAction.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```

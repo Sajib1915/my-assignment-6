@@ -4,11 +4,15 @@ const Cart = ({ cart, onRemoveFromCart, onCheckout }) => {
   return (
     <div className="max-w-2xl mx-auto">
       {cart.length === 0 ? (
-        <div className="text-center py-16 text-gray-400">
-          <p className="text-xl">Your cart is empty!</p>
-          <p className="text-sm mt-2">Add some products to get started.</p>
-        </div>
-      ) : (
+  <div className="border border-gray-200 rounded-2xl p-6">
+    <h3 className="font-bold text-gray-800 text-lg mb-6">Your Cart</h3>
+    <div className="flex flex-col items-center mb-4">
+      <img src="/shopping-cart.png" alt="empty cart" className="w-16 h-16 opacity-30 mb-4" />
+      <p className="text-gray-500 text-lg font-medium">Your cart is empty</p>
+      <p className="text-gray-400 text-sm mt-1">Add some products to get started.</p>
+    </div>
+  </div>
+) : (
         <div className="border border-gray-200 rounded-2xl p-6">
           <div className="flex items-center justify-between mb-4">
             <h3 className="font-bold text-gray-800 text-lg">Your Cart</h3>
