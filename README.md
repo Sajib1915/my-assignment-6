@@ -8,10 +8,8 @@ A modern e-commerce web application for browsing and purchasing digital tools â€
 
 ## ðŸ“¸ Screenshot
 
-![Digital Tools Buying Website Screenshot](./<img width="958" height="425" alt="image" src="https://github.com/user-attachments/assets/332a9e3d-4bb9-406d-8d15-f4fb6b58f0ae" />
+(./<img width="958" height="425" alt="image" src="https://github.com/user-attachments/assets/332a9e3d-4bb9-406d-8d15-f4fb6b58f0ae" />
 )
-
-> _Add a screenshot of your project here. Upload an image named `screenshot.png` to your repository._
 
 ---
 
