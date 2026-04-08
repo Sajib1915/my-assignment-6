@@ -8,8 +8,7 @@ A modern e-commerce web application for browsing and purchasing digital tools â€
 
 ## ðŸ“¸ Screenshot
 
-(./<img width="958" height="425" alt="image" src="https://github.com/user-attachments/assets/332a9e3d-4bb9-406d-8d15-f4fb6b58f0ae" />
-)
+<img width="958" height="425" alt="image" src="https://github.com/user-attachments/assets/332a9e3d-4bb9-406d-8d15-f4fb6b58f0ae" />
 
 ---
 
